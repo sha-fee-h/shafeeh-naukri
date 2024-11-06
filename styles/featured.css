@@ -1,0 +1,95 @@
+.featured-container{
+    margin: 60px 0 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.all{
+   background: #E7E7F1;
+   font-weight: 600;
+   border:1px solid black; 
+}
+.button{
+    background: #fff;
+    border: 1px solid #979EC2;
+    color: #474D6A;
+    font-weight: 500;
+}
+.category button{
+    border-radius: 50px;
+    padding: 6px 12px;
+    margin-right: 8px;
+}
+.companies-widget-2{
+    display: flex;
+    column-gap: 16px;
+    margin: 30px 0 36px;
+    width: 1160px;
+    overflow: hidden;
+}
+.widget-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #e7e7f1 ;
+    border-radius: 20px;
+}
+.widget-2 img{
+    height: 50px;
+}
+.industry-name-2{
+    font-weight: 550;
+    word-wrap: none;
+}
+.company{
+    height: 92px;
+    width: 173px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 0 12px;
+    border-radius: 10px;
+    padding: 0 16px 0 16px;
+}
+.company img{
+    width: 12px;
+    height: 12px;
+}
+.description-2{
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+.rating{
+    margin: 0 6px 0 6px;
+    padding-right: 6px;
+    border-right: solid 1px #e7e7f1;
+    color: #717B9E;
+    font-size: 12px;
+    font-weight: 600;
+}
+.reviews{
+    color: #717B9E;
+    font-size: 12px;
+    font-weight: 500;
+}
+.title-2{
+    color: #474D6A;
+    width: 196px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+.button-2{
+    background: #EDF4FF;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #275DF5;
+    padding: 11px 20px;
+    margin-top: 24px;
+
+}

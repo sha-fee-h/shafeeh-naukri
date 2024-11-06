@@ -1,0 +1,126 @@
+.campus-container-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.campus-container{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: white;
+    border-radius: 16px;
+    border: 1px solid #e7e7f1;
+    padding: 0 42px 0 8px;
+}
+.l1{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+.l2{
+    margin: 6px 0 18px;
+    color: #717b9e;
+    font-size: 14px;
+    max-width: 452px;
+    word-break: break-word;
+}
+.links-div{
+    display: flex;
+    column-gap: 10px;
+}
+.links{
+    border: 1px solid #e7e7f1;
+    border-radius: 50px;
+    padding: 8px 12px;
+}
+.links span{
+    color: #474d6a;
+    font-size: 12px;
+    font-weight: 600;
+}
+.Explore-button{
+    margin-left: 100px;
+    border-radius: 40px;
+    background-color: #275df5;
+    color: white;
+    padding: 10px 14px;
+    width: 175px;
+    text-align: center;
+}
+.tag{
+    background-color: #EFEDFF;
+    color: #474d6a;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 0 0 12px 12px;
+    position: absolute;
+    top: 0;
+    right: 42px;
+}
+/*find your dream job now*/
+.dream-job-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 94px 0 35px;
+}
+.dream-job{
+    width: 1060px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid #FFE9D6;
+    background: linear-gradient(180deg, rgba(255,240,226,0) 0%, #FFF0E2 100%);
+    padding: 25px 0 0 60px;
+
+}
+.dream-job img{
+    width: 389px;
+    height: 175px;
+}
+.dream-job h1{
+    margin: 6px 0 0;
+    font-size: 24px;
+    max-width: 275px;
+    word-break: break-word;
+}
+.dream-job p{
+    margin: 12px 0 24px 0;
+    font-size: 14px;
+}
+.widget-container{
+    display: grid;
+    grid-template-columns: 202px 202px;
+    grid-template-rows: 74px 74px 74px;
+    column-gap: 20px;
+    row-gap: 20px;
+    position: absolute;
+    padding: 61px 24px 75px 24px;
+    right: 256px;
+    top: -40px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid #e7e7f1;
+}
+.widget-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e7e7f1;
+    border-radius: 20px;
+}
+.widget-3 img{
+    width:12px;
+    margin-left:12px;
+}
+.job-role{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.vacancies{
+    color: #474d6a;
+    font-size: 14px;
+}
